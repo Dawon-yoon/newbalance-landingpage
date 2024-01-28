@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap");
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.btn-outline-success {
+  color: #cf0a2c;
+  border-color: #cf0a2c;
+}
+.btn-outline-success:hover {
+  background-color: #cf0a2c;
+  color: white;
+  border-color: #cf0a2c;
+}
+
+.japan-flag {
+  width: 15px;
+  height: 13px;
+  margin-right: 5px;
+}
+span {
+  margin-left: 3px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.third-line {
+  display: none;
+}
+.fist-line {
+  border-bottom: 1px solid #303030;
+}
+@media screen and (max-width: 48rem) {
+  .fist-line {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding: 0 2rem;
+    border-bottom: 1px solid #303030;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .third-line {
+    display: block;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .mobile-none {
+    display: none;
+  }
+}
